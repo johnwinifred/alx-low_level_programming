@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A C program that prints the size of various types on the computer it is compiled and run on.
+ * main - c command that prints all sizes
  * Return: 0 (Success)
  */
 int main(void)
@@ -12,3 +12,4 @@ int main(void)
 	printf("Size of a float: %i byte(s)\n", sizeof(float));
 	return (0);
 }
+
