@@ -2,18 +2,17 @@
 /**
  * main - Entry point
  *
- * Return: 0 (Success)
+ * Return: 0 (Succes)
  */
 int main(void)
 {
-	char *ch = "_putchar";
-
-	while (*ch)
-	{
-		_putchar(*ch);
-		ch++;
-	}
-	_putchar('\n');
-
-	return (0);
+char c[9] = "_putchar";
+int i = 0;
+while (i < 8)
+{
+_putchar(c[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }
