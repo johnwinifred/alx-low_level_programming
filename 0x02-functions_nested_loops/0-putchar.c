@@ -1,14 +1,19 @@
-#include <stdio.h>
 #include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-	char c[8] = "_putchar";
-	unsigned int i;
+	char *ch = "_putchar";
 
-	for (i = 0; i < sizeof(c); i++)
+	while (*ch)
 	{
-		_putchar(c[i]);
+		_putchar(*ch);
+		ch++;
 	}
-_putchar('\n');
-return (0);
+	_putchar('\n');
+
+	return (0);
 }
